@@ -38,6 +38,6 @@ public class UnitTestCalculadora {
         int resultadoActual = calculadora.suma(a, b);
         int resultadoEsperado = 10;
 
-        Assert.assertTrue(resultadoActual >= resultadoEsperado, "La suma es menor al esperado");
+        Assert.assertTrue(resultadoActual >= resultadoEsperado, "El resultado actual es menor al esperado");
     }
 }
