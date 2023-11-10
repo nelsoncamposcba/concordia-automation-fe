@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite de Regresiones">
+    <test name="Calculadora">
+        <classes>
+            <class name="clase_6.UnitTestCalculadora" />
+        </classes>
+    </test>
+    <test name="Hooks">
+        <classes>
+            <class name="clase_6.Hooks"></class>
+        </classes>
+    </test>
+</suite>

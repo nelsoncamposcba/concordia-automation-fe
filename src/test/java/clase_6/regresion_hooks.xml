@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite de Regresion Hooks">
+    <test name="Hooks">
+        <classes>
+            <class name="clase_6.Hooks"></class>
+        </classes>
+    </test>
+</suite>
