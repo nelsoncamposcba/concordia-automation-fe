@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite de Ejercicios Clase 6">
+    <test name="Carrito">
+        <classes>
+            <class name="clase_6.ejercitacion.CarritoTest"/>
+        </classes>
+    </test>
+    <test name="Compra">
+        <classes>
+            <class name="clase_6.ejercitacion.CompraTest"></class>
+        </classes>
+    </test>
+    <test name="Inicio Sesion">
+        <classes>
+            <class name="clase_6.ejercitacion.IniciarSesionTest"></class>
+        </classes>
+    </test>
+
+    <test name="Inventario">
+        <classes>
+            <class name="clase_6.ejercitacion.InventarioTest"></class>
+        </classes>
+    </test>
+</suite>
