@@ -1,4 +1,4 @@
-package clase_7.esperas;
+package clase_7;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
