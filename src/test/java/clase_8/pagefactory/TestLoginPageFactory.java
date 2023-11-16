@@ -4,7 +4,7 @@ import clase_7.drivermanager.DriverManager;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestLoginSRP {
+public class TestLoginPageFactory {
 
     @BeforeMethod
     public void setup(){
@@ -15,7 +15,7 @@ public class TestLoginSRP {
 
     @Test
     public void inicioCorrecto(){
-        LoginService loginService = new LoginService(DriverManager.getDriver());
+        LoginService loginService = new LoginService();
 
         //Pasos para ejecutar la prueba
         //1- Ingresar nombre de usuario
@@ -28,7 +28,7 @@ public class TestLoginSRP {
 
     @Test
     public void inicioIncorrecto(){
-        LoginService loginService = new LoginService(DriverManager.getDriver());
+        LoginService loginService = new LoginService();
 
         //Pasos para ejecutar la prueba
         //1- Ingresar nombre de usuario
@@ -41,7 +41,7 @@ public class TestLoginSRP {
 
     @Test
     public void inicioCorrectoMejorado(){
-        LoginService loginService = new LoginService(DriverManager.getDriver());
+        LoginService loginService = new LoginService();
 
         loginService.iniciarSesion("standard_user", "secret_sauce");
     }
