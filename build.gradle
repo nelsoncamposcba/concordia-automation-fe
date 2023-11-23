@@ -19,8 +19,14 @@ dependencies {
     // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.6.2'
 
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    testImplementation group: 'io.cucumber', name: 'cucumber-java', version: '7.14.0'
+
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-testng
+    testImplementation group: 'io.cucumber', name: 'cucumber-testng', version: '7.14.0'
 }
 
 test {
     useTestNG()
+    scanForTestClasses = false
 }
